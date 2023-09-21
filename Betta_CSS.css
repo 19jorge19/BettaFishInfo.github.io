@@ -1,0 +1,49 @@
+/* Apply a basic reset to remove default margin and padding */
+html, body, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color to red and style the header */
+  body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    color: white; /* White text color for better contrast */
+    padding-top: 20px; /* Add space at the top to separate the header from the background color */
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  /* Style the sections as rectangles */
+  .section {
+    background-color: white; /* White background for sections */
+    padding: 20px;
+    margin: 20px auto; /* Center the sections horizontally */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+    max-width: 800px; /* Limit the width of the sections */
+  }
+  
+  /* Style headings and paragraphs */
+  h1, h2, h3 {
+    color: #0073e6; /* Blue heading color */
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6; /* Slightly increased line height for readability */
+  }
+  
+  /* Style images and videos */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  
